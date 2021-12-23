@@ -32,7 +32,6 @@
 		6C08DB222774E58E0062E35E /* RetreiveSleepData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08DB212774E58E0062E35E /* RetreiveSleepData.swift */; };
 		6C08DB262774EEDE0062E35E /* HKHeartbeatSeriesQueryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08DB252774EEDE0062E35E /* HKHeartbeatSeriesQueryManager.swift */; };
 		6C08DB282774F0A90062E35E /* HKObserverQueryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08DB272774F0A90062E35E /* HKObserverQueryManager.swift */; };
-		6C08DB2A2774F2730062E35E /* HKSampleSeriesQueryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08DB292774F2730062E35E /* HKSampleSeriesQueryManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,7 +105,6 @@
 		6C08DB212774E58E0062E35E /* RetreiveSleepData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetreiveSleepData.swift; sourceTree = "<group>"; };
 		6C08DB252774EEDE0062E35E /* HKHeartbeatSeriesQueryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKHeartbeatSeriesQueryManager.swift; sourceTree = "<group>"; };
 		6C08DB272774F0A90062E35E /* HKObserverQueryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKObserverQueryManager.swift; sourceTree = "<group>"; };
-		6C08DB292774F2730062E35E /* HKSampleSeriesQueryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKSampleSeriesQueryManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,7 +211,6 @@
 				6C08DB192774E2A60062E35E /* HKActivitySummaryQueryManager.swift */,
 				6C08DB252774EEDE0062E35E /* HKHeartbeatSeriesQueryManager.swift */,
 				6C08DB272774F0A90062E35E /* HKObserverQueryManager.swift */,
-				6C08DB292774F2730062E35E /* HKSampleSeriesQueryManager.swift */,
 			);
 			path = Read;
 			sourceTree = "<group>";
@@ -380,7 +377,6 @@
 				6C08DB182774E1DC0062E35E /* HKSourceQueryManager.swift in Sources */,
 				6C08DB1A2774E2A60062E35E /* HKActivitySummaryQueryManager.swift in Sources */,
 				6C08DB282774F0A90062E35E /* HKObserverQueryManager.swift in Sources */,
-				6C08DB2A2774F2730062E35E /* HKSampleSeriesQueryManager.swift in Sources */,
 				6C08DB122774C73A0062E35E /* HKAnchoredQueryManager.swift in Sources */,
 				6C08DB0A2774B4D50062E35E /* HKSampleQueryManager.swift in Sources */,
 				6C08DB1F2774E43D0062E35E /* HKCategoryDataSaver.swift in Sources */,
