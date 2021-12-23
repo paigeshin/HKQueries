@@ -17,7 +17,7 @@
 - HKHeartbeatSeriesQuery
 - HKObserverQuery
 - HKSampleSeriesQuery
-- Read Category Type Query
+- Read Category Type
 - Write Category Data
 - Write Sample Data
 
