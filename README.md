@@ -1,9 +1,25 @@
 # HKQueries
 
-# Instructions.
+# Instructions
 
 1. I didn't ever use Healthkit before and apple Docs are not kind so I decided to make some organized documents.
 2. I highly recommend you to run the code one by one to understand how it works.
+
+# Table of contents 
+
+- HKCharacteristicType
+- HKSampleQuery
+- HKAnchoredQuery
+- HKStatisticsQuery
+- HKStatisticsColletionQuery
+- HKSourceQuery
+- HKActivitySummaryQuery
+- HKHeartbeatSeriesQuery
+- HKObserverQuery
+- HKSampleSeriesQuery
+- Read Category Type Query
+- Write Category Data
+- Write Sample Data
 
 # Three Types of Apple Health Data Type
 
@@ -791,6 +807,10 @@ Code are provided below...
 
 ```
 
+### HKSampleSeriesQuery
+
+https://developer.apple.com/videos/play/wwdc2019/218/
+
 ### Read CategoryType
 
 ```swift
@@ -965,6 +985,7 @@ Code are provided below...
         }
     }
 ```
+
 
 # References
 
