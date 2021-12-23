@@ -81,6 +81,8 @@ Don't need to use, since HKAnchoredQuery is upgraded version of HKObserverQuery
 
 ### HKSampleSeriesQuery
 
+https://developer.apple.com/documentation/healthkit/samples/reading_and_writing_healthkit_series_data
+
 - Measurements at a particular time
 - Occur a timeinterval
 - Walking Distance & Body Mass & Heart Rate
@@ -88,6 +90,16 @@ Don't need to use, since HKAnchoredQuery is upgraded version of HKObserverQuery
 - Heart Rate & Boyd Mass & Height => Average, Minimum, Maximum, Most Recent
 
 ### Read Category Type Query
+
+Code are provided below...
+
+### Write Category Data
+
+Code are provided below...
+
+### Write Sample Data
+
+Code are provided below...
 
 # Code
 
@@ -961,3 +973,5 @@ Don't need to use, since HKAnchoredQuery is upgraded version of HKObserverQuery
 [HealthKit Tutorial Ray](https://www.raywenderlich.com/459-healthkit-tutorial-with-swift-getting-started)
 
 [https://www.devfright.com/healthkit/](https://www.devfright.com/healthkit/)
+
+https://developer.apple.com/videos/play/wwdc2019/218/
