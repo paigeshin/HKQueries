@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C08DAD52774B4C20062E35E /* HKQueriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08DAD42774B4C20062E35E /* HKQueriesApp.swift */; };
+		6C08DAD72774B4C20062E35E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08DAD62774B4C20062E35E /* ContentView.swift */; };
+		6C08DAD92774B4C20062E35E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C08DAD82774B4C20062E35E /* Assets.xcassets */; };
+		6C08DADC2774B4C20062E35E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C08DADB2774B4C20062E35E /* Preview Assets.xcassets */; };
+		6C08DAE02774B4C20062E35E /* HKQueries WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6C08DADF2774B4C20062E35E /* HKQueries WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6C08DAE52774B4C30062E35E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C08DAE42774B4C30062E35E /* Assets.xcassets */; };
+		6C08DAEB2774B4C30062E35E /* HKQueries WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6C08DAEA2774B4C30062E35E /* HKQueries WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6C08DAF02774B4C30062E35E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08DAEF2774B4C30062E35E /* ContentView.swift */; };
+		6C08DAF22774B4C30062E35E /* HKQueriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08DAF12774B4C30062E35E /* HKQueriesApp.swift */; };
+		6C08DAF42774B4C30062E35E /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08DAF32774B4C30062E35E /* ComplicationController.swift */; };
+		6C08DAF62774B4C40062E35E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C08DAF52774B4C40062E35E /* Assets.xcassets */; };
+		6C08DAF92774B4C40062E35E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C08DAF82774B4C40062E35E /* Preview Assets.xcassets */; };
+		6C08DB0A2774B4D50062E35E /* HKSampleQueryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08DB092774B4D50062E35E /* HKSampleQueryManager.swift */; };
+		6C08DB0C2774B50A0062E35E /* HKCharacteristicTypeQueryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08DB0B2774B50A0062E35E /* HKCharacteristicTypeQueryManager.swift */; };
+		6C08DB102774C36D0062E35E /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C08DB0F2774C36D0062E35E /* HealthKit.framework */; };
+		6C08DB122774C73A0062E35E /* HKAnchoredQueryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08DB112774C73A0062E35E /* HKAnchoredQueryManager.swift */; };
+		6C08DB142774CE580062E35E /* HKStatisticsQueryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08DB132774CE580062E35E /* HKStatisticsQueryManager.swift */; };
+		6C08DB162774DEF30062E35E /* HKStatisticsCollectionQueryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08DB152774DEF30062E35E /* HKStatisticsCollectionQueryManager.swift */; };
+		6C08DB182774E1DC0062E35E /* HKSourceQueryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08DB172774E1DC0062E35E /* HKSourceQueryManager.swift */; };
+		6C08DB1A2774E2A60062E35E /* HKActivitySummaryQueryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08DB192774E2A60062E35E /* HKActivitySummaryQueryManager.swift */; };
+		6C08DB1D2774E3D10062E35E /* HKSampleDataSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08DB1C2774E3D10062E35E /* HKSampleDataSaver.swift */; };
+		6C08DB1F2774E43D0062E35E /* HKCategoryDataSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08DB1E2774E43D0062E35E /* HKCategoryDataSaver.swift */; };
+		6C08DB222774E58E0062E35E /* RetreiveSleepData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08DB212774E58E0062E35E /* RetreiveSleepData.swift */; };
+		6C08DB262774EEDE0062E35E /* HKHeartbeatSeriesQueryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08DB252774EEDE0062E35E /* HKHeartbeatSeriesQueryManager.swift */; };
+		6C08DB282774F0A90062E35E /* HKObserverQueryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08DB272774F0A90062E35E /* HKObserverQueryManager.swift */; };
+		6C08DB2A2774F2730062E35E /* HKSampleSeriesQueryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08DB292774F2730062E35E /* HKSampleSeriesQueryManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C08DAE12774B4C20062E35E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C08DAC92774B4C10062E35E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C08DADE2774B4C20062E35E;
+			remoteInfo = "HKQueries WatchKit App";
+		};
+		6C08DAEC2774B4C30062E35E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C08DAC92774B4C10062E35E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C08DAE92774B4C30062E35E;
+			remoteInfo = "HKQueries WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6C08DB002774B4C40062E35E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6C08DAEB2774B4C30062E35E /* HKQueries WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C08DB042774B4C40062E35E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6C08DAE02774B4C20062E35E /* HKQueries WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6C08DAD12774B4C20062E35E /* HKQueries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HKQueries.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C08DAD42774B4C20062E35E /* HKQueriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKQueriesApp.swift; sourceTree = "<group>"; };
+		6C08DAD62774B4C20062E35E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C08DAD82774B4C20062E35E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C08DADB2774B4C20062E35E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C08DADF2774B4C20062E35E /* HKQueries WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HKQueries WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C08DAE42774B4C30062E35E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C08DAEA2774B4C30062E35E /* HKQueries WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HKQueries WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C08DAEF2774B4C30062E35E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C08DAF12774B4C30062E35E /* HKQueriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKQueriesApp.swift; sourceTree = "<group>"; };
+		6C08DAF32774B4C30062E35E /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		6C08DAF52774B4C40062E35E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C08DAF82774B4C40062E35E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C08DAFA2774B4C40062E35E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C08DB092774B4D50062E35E /* HKSampleQueryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKSampleQueryManager.swift; sourceTree = "<group>"; };
+		6C08DB0B2774B50A0062E35E /* HKCharacteristicTypeQueryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKCharacteristicTypeQueryManager.swift; sourceTree = "<group>"; };
+		6C08DB0D2774C36D0062E35E /* HKQueries.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HKQueries.entitlements; sourceTree = "<group>"; };
+		6C08DB0F2774C36D0062E35E /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		6C08DB112774C73A0062E35E /* HKAnchoredQueryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKAnchoredQueryManager.swift; sourceTree = "<group>"; };
+		6C08DB132774CE580062E35E /* HKStatisticsQueryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKStatisticsQueryManager.swift; sourceTree = "<group>"; };
+		6C08DB152774DEF30062E35E /* HKStatisticsCollectionQueryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKStatisticsCollectionQueryManager.swift; sourceTree = "<group>"; };
+		6C08DB172774E1DC0062E35E /* HKSourceQueryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKSourceQueryManager.swift; sourceTree = "<group>"; };
+		6C08DB192774E2A60062E35E /* HKActivitySummaryQueryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKActivitySummaryQueryManager.swift; sourceTree = "<group>"; };
+		6C08DB1C2774E3D10062E35E /* HKSampleDataSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKSampleDataSaver.swift; sourceTree = "<group>"; };
+		6C08DB1E2774E43D0062E35E /* HKCategoryDataSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKCategoryDataSaver.swift; sourceTree = "<group>"; };
+		6C08DB212774E58E0062E35E /* RetreiveSleepData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetreiveSleepData.swift; sourceTree = "<group>"; };
+		6C08DB252774EEDE0062E35E /* HKHeartbeatSeriesQueryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKHeartbeatSeriesQueryManager.swift; sourceTree = "<group>"; };
+		6C08DB272774F0A90062E35E /* HKObserverQueryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKObserverQueryManager.swift; sourceTree = "<group>"; };
+		6C08DB292774F2730062E35E /* HKSampleSeriesQueryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKSampleSeriesQueryManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C08DACE2774B4C20062E35E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C08DB102774C36D0062E35E /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C08DAE72774B4C30062E35E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C08DAC82774B4C10062E35E = {
+			isa = PBXGroup;
+			children = (
+				6C08DAD32774B4C20062E35E /* HKQueries */,
+				6C08DAE32774B4C20062E35E /* HKQueries WatchKit App */,
+				6C08DAEE2774B4C30062E35E /* HKQueries WatchKit Extension */,
+				6C08DAD22774B4C20062E35E /* Products */,
+				6C08DB0E2774C36D0062E35E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C08DAD22774B4C20062E35E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C08DAD12774B4C20062E35E /* HKQueries.app */,
+				6C08DADF2774B4C20062E35E /* HKQueries WatchKit App.app */,
+				6C08DAEA2774B4C30062E35E /* HKQueries WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C08DAD32774B4C20062E35E /* HKQueries */ = {
+			isa = PBXGroup;
+			children = (
+				6C08DB0D2774C36D0062E35E /* HKQueries.entitlements */,
+				6C08DB082774B4CC0062E35E /* Read */,
+				6C08DB1B2774E3940062E35E /* Update */,
+				6C08DB202774E5680062E35E /* SleepAnalysis */,
+				6C08DAD42774B4C20062E35E /* HKQueriesApp.swift */,
+				6C08DAD62774B4C20062E35E /* ContentView.swift */,
+				6C08DAD82774B4C20062E35E /* Assets.xcassets */,
+				6C08DADA2774B4C20062E35E /* Preview Content */,
+			);
+			path = HKQueries;
+			sourceTree = "<group>";
+		};
+		6C08DADA2774B4C20062E35E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6C08DADB2774B4C20062E35E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6C08DAE32774B4C20062E35E /* HKQueries WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				6C08DAE42774B4C30062E35E /* Assets.xcassets */,
+			);
+			path = "HKQueries WatchKit App";
+			sourceTree = "<group>";
+		};
+		6C08DAEE2774B4C30062E35E /* HKQueries WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6C08DAEF2774B4C30062E35E /* ContentView.swift */,
+				6C08DAF12774B4C30062E35E /* HKQueriesApp.swift */,
+				6C08DAF32774B4C30062E35E /* ComplicationController.swift */,
+				6C08DAF52774B4C40062E35E /* Assets.xcassets */,
+				6C08DAFA2774B4C40062E35E /* Info.plist */,
+				6C08DAF72774B4C40062E35E /* Preview Content */,
+			);
+			path = "HKQueries WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		6C08DAF72774B4C40062E35E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6C08DAF82774B4C40062E35E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6C08DB082774B4CC0062E35E /* Read */ = {
+			isa = PBXGroup;
+			children = (
+				6C08DB0B2774B50A0062E35E /* HKCharacteristicTypeQueryManager.swift */,
+				6C08DB092774B4D50062E35E /* HKSampleQueryManager.swift */,
+				6C08DB112774C73A0062E35E /* HKAnchoredQueryManager.swift */,
+				6C08DB132774CE580062E35E /* HKStatisticsQueryManager.swift */,
+				6C08DB152774DEF30062E35E /* HKStatisticsCollectionQueryManager.swift */,
+				6C08DB172774E1DC0062E35E /* HKSourceQueryManager.swift */,
+				6C08DB192774E2A60062E35E /* HKActivitySummaryQueryManager.swift */,
+				6C08DB252774EEDE0062E35E /* HKHeartbeatSeriesQueryManager.swift */,
+				6C08DB272774F0A90062E35E /* HKObserverQueryManager.swift */,
+				6C08DB292774F2730062E35E /* HKSampleSeriesQueryManager.swift */,
+			);
+			path = Read;
+			sourceTree = "<group>";
+		};
+		6C08DB0E2774C36D0062E35E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C08DB0F2774C36D0062E35E /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C08DB1B2774E3940062E35E /* Update */ = {
+			isa = PBXGroup;
+			children = (
+				6C08DB1C2774E3D10062E35E /* HKSampleDataSaver.swift */,
+				6C08DB1E2774E43D0062E35E /* HKCategoryDataSaver.swift */,
+			);
+			path = Update;
+			sourceTree = "<group>";
+		};
+		6C08DB202774E5680062E35E /* SleepAnalysis */ = {
+			isa = PBXGroup;
+			children = (
+				6C08DB212774E58E0062E35E /* RetreiveSleepData.swift */,
+			);
+			path = SleepAnalysis;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C08DAD02774B4C20062E35E /* HKQueries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C08DB052774B4C40062E35E /* Build configuration list for PBXNativeTarget "HKQueries" */;
+			buildPhases = (
+				6C08DACD2774B4C20062E35E /* Sources */,
+				6C08DACE2774B4C20062E35E /* Frameworks */,
+				6C08DACF2774B4C20062E35E /* Resources */,
+				6C08DB042774B4C40062E35E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C08DAE22774B4C20062E35E /* PBXTargetDependency */,
+			);
+			name = HKQueries;
+			productName = HKQueries;
+			productReference = 6C08DAD12774B4C20062E35E /* HKQueries.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C08DADE2774B4C20062E35E /* HKQueries WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C08DB012774B4C40062E35E /* Build configuration list for PBXNativeTarget "HKQueries WatchKit App" */;
+			buildPhases = (
+				6C08DADD2774B4C20062E35E /* Resources */,
+				6C08DB002774B4C40062E35E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C08DAED2774B4C30062E35E /* PBXTargetDependency */,
+			);
+			name = "HKQueries WatchKit App";
+			productName = "HKQueries WatchKit App";
+			productReference = 6C08DADF2774B4C20062E35E /* HKQueries WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		6C08DAE92774B4C30062E35E /* HKQueries WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C08DAFD2774B4C40062E35E /* Build configuration list for PBXNativeTarget "HKQueries WatchKit Extension" */;
+			buildPhases = (
+				6C08DAE62774B4C30062E35E /* Sources */,
+				6C08DAE72774B4C30062E35E /* Frameworks */,
+				6C08DAE82774B4C30062E35E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HKQueries WatchKit Extension";
+			productName = "HKQueries WatchKit Extension";
+			productReference = 6C08DAEA2774B4C30062E35E /* HKQueries WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C08DAC92774B4C10062E35E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					6C08DAD02774B4C20062E35E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					6C08DADE2774B4C20062E35E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					6C08DAE92774B4C30062E35E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 6C08DACC2774B4C10062E35E /* Build configuration list for PBXProject "HKQueries" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C08DAC82774B4C10062E35E;
+			productRefGroup = 6C08DAD22774B4C20062E35E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C08DAD02774B4C20062E35E /* HKQueries */,
+				6C08DADE2774B4C20062E35E /* HKQueries WatchKit App */,
+				6C08DAE92774B4C30062E35E /* HKQueries WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C08DACF2774B4C20062E35E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C08DADC2774B4C20062E35E /* Preview Assets.xcassets in Resources */,
+				6C08DAD92774B4C20062E35E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C08DADD2774B4C20062E35E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C08DAE52774B4C30062E35E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C08DAE82774B4C30062E35E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C08DAF92774B4C40062E35E /* Preview Assets.xcassets in Resources */,
+				6C08DAF62774B4C40062E35E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C08DACD2774B4C20062E35E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C08DAD72774B4C20062E35E /* ContentView.swift in Sources */,
+				6C08DB262774EEDE0062E35E /* HKHeartbeatSeriesQueryManager.swift in Sources */,
+				6C08DB162774DEF30062E35E /* HKStatisticsCollectionQueryManager.swift in Sources */,
+				6C08DB182774E1DC0062E35E /* HKSourceQueryManager.swift in Sources */,
+				6C08DB1A2774E2A60062E35E /* HKActivitySummaryQueryManager.swift in Sources */,
+				6C08DB282774F0A90062E35E /* HKObserverQueryManager.swift in Sources */,
+				6C08DB2A2774F2730062E35E /* HKSampleSeriesQueryManager.swift in Sources */,
+				6C08DB122774C73A0062E35E /* HKAnchoredQueryManager.swift in Sources */,
+				6C08DB0A2774B4D50062E35E /* HKSampleQueryManager.swift in Sources */,
+				6C08DB1F2774E43D0062E35E /* HKCategoryDataSaver.swift in Sources */,
+				6C08DB0C2774B50A0062E35E /* HKCharacteristicTypeQueryManager.swift in Sources */,
+				6C08DB142774CE580062E35E /* HKStatisticsQueryManager.swift in Sources */,
+				6C08DAD52774B4C20062E35E /* HKQueriesApp.swift in Sources */,
+				6C08DB1D2774E3D10062E35E /* HKSampleDataSaver.swift in Sources */,
+				6C08DB222774E58E0062E35E /* RetreiveSleepData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C08DAE62774B4C30062E35E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C08DAF02774B4C30062E35E /* ContentView.swift in Sources */,
+				6C08DAF22774B4C30062E35E /* HKQueriesApp.swift in Sources */,
+				6C08DAF42774B4C30062E35E /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C08DAE22774B4C20062E35E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C08DADE2774B4C20062E35E /* HKQueries WatchKit App */;
+			targetProxy = 6C08DAE12774B4C20062E35E /* PBXContainerItemProxy */;
+		};
+		6C08DAED2774B4C30062E35E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C08DAE92774B4C30062E35E /* HKQueries WatchKit Extension */;
+			targetProxy = 6C08DAEC2774B4C30062E35E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6C08DAFB2774B4C40062E35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C08DAFC2774B4C40062E35E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6C08DAFE2774B4C40062E35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HKQueries WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HKQueries WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HKQueries WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paigesoftware.HKQueries.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		6C08DAFF2774B4C40062E35E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HKQueries WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HKQueries WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HKQueries WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paigesoftware.HKQueries.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		6C08DB022774B4C40062E35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = HKQueries_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "HKQueries WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.paigesoftware.HKQueries;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paigesoftware.HKQueries.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		6C08DB032774B4C40062E35E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = HKQueries_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "HKQueries WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.paigesoftware.HKQueries;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paigesoftware.HKQueries.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		6C08DB062774B4C40062E35E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HKQueries/HKQueries.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HKQueries/Preview Content\"";
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Need to share health data";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Need to update health data";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paigesoftware.HKQueries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C08DB072774B4C40062E35E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HKQueries/HKQueries.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HKQueries/Preview Content\"";
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Need to share health data";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Need to update health data";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paigesoftware.HKQueries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C08DACC2774B4C10062E35E /* Build configuration list for PBXProject "HKQueries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C08DAFB2774B4C40062E35E /* Debug */,
+				6C08DAFC2774B4C40062E35E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C08DAFD2774B4C40062E35E /* Build configuration list for PBXNativeTarget "HKQueries WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C08DAFE2774B4C40062E35E /* Debug */,
+				6C08DAFF2774B4C40062E35E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C08DB012774B4C40062E35E /* Build configuration list for PBXNativeTarget "HKQueries WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C08DB022774B4C40062E35E /* Debug */,
+				6C08DB032774B4C40062E35E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C08DB052774B4C40062E35E /* Build configuration list for PBXNativeTarget "HKQueries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C08DB062774B4C40062E35E /* Debug */,
+				6C08DB072774B4C40062E35E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C08DAC92774B4C10062E35E /* Project object */;
+}
