@@ -19,7 +19,7 @@
 
 ### HKCarateristicType: Characteristics of Data
 
-[Code Example](./Read/HKCharacteristicTypeQueryManager.swift)
+[Code Example](https://github.com/paigeshin/HKQueries/blob/master/Read/HKCharacteristicTypeQueryManager.swift)
 
 1. You don't need to query data for `CharacteristicTypeIdentifier`
 2. You can directly access `CharacteristicType` data
